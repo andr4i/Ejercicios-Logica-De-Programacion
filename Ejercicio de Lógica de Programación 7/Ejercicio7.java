@@ -30,8 +30,6 @@ public class Ejercicio7 {
                 totalminutos += 1;
             }
         }
-        int horaInt = 0;
-        int minutosInt = 0;
         for(int i = dias.indexOf(dia)+1; i <5; i++){
                 for(int j = 0; j < 24; j++){
                     for(int k = 0; k < 60; k++){
