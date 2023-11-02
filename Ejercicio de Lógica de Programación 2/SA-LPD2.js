@@ -12,9 +12,7 @@ const convertirTemperatura = () =>{
         infodiv.append(p);  //  Se añade a nuestro DOM
     }
     else{
-        let infodiv = document.querySelector(".cambios");
-        let p = document.createElement("p");
-        p.textContent = "Ingrese un numero adeacuado";
-        infodiv.append(p)
+        alert("Error, eso no es un número");
+        convertirTemperatura();
     }
 }

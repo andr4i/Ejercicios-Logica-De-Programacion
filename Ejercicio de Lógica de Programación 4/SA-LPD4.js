@@ -46,11 +46,8 @@ const fibonacci = () => {
         }
     }
     else{
-        let infodiv = document.querySelector(".resultado");
-        infodiv.innerHTML = "";
-        let p = document.createElement("p");
-        p.textContent = "Ingrese un numero adeacuado";
-        infodiv.append(p);
+        alert("Error, eso no es un número");
+        convertirTemperatura();
     }
 
 }

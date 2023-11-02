@@ -13,9 +13,7 @@ const factorial = () => {
         infodiv.append(p);
     }
     else{
-        let infodiv = document.querySelector(".resultado");
-        let p = document.createElement("p");
-        p.textContent = "Ingrese un numero adeacuado";
-        infodiv.append(p)
+        alert("Error, eso no es un número");
+        convertirTemperatura();
     }
 }
