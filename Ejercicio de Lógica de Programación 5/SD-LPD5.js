@@ -23,5 +23,9 @@ const numeresecreto = () =>{
                 }
             }
         }
+        else{
+            alert("Error, eso no es un número");
+            numeresecreto();
+        }
     }
 }

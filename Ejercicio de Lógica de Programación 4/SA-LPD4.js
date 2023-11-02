@@ -47,7 +47,7 @@ const fibonacci = () => {
     }
     else{
         alert("Error, eso no es un número");
-        convertirTemperatura();
+        fibonacci();
     }
 
 }

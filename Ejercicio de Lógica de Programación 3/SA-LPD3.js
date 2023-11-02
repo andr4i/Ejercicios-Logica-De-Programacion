@@ -14,6 +14,6 @@ const factorial = () => {
     }
     else{
         alert("Error, eso no es un número");
-        convertirTemperatura();
+        factorial();
     }
 }
